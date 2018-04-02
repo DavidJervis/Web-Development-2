@@ -1,0 +1,237 @@
+body
+{
+background-color: #E14040;
+width: 1000px;	
+height: 200px;
+}
+#h1
+{
+	color: #D8C07C;
+    font-family: arial;
+    position: absolute;
+    left: 400px;
+    top: 180px; 
+}
+
+h2
+{
+	color: #D8C07C;
+    font-family: arial;
+    position: absolute;
+    left: 480px;
+    top: 240px;	
+}
+h3
+{
+	color: black;
+}
+audio
+{
+	position: absolute;
+	left: 400px;
+	top: 600px;
+}
+#ringtone
+{
+	position: absolute;
+	left: 400px;
+	top: 700px;
+}
+#paraone
+{
+	color: #E14040;
+	text-shadow: 1px 1px darkred;
+	font-family: arial;
+	float: left;
+	width: 540px;
+	height: 100px;
+	background-color: #D8C07C;
+	position: absolute;
+	left: 270px;
+	top: 300px;
+	border-radius: 10px;
+}
+#firstvideo
+{
+	color: #E14040;
+	text-shadow: 1px 1px darkred;
+	font-family: arial;
+	float: left;
+	width: 160px;
+	height: 20px;
+	background-color: #D8C07C;
+	position: absolute;
+	left: 470px;
+	top: 440px;
+	border-radius: 10px;
+}
+#secondvideo
+{
+	color: #E14040;
+	text-shadow: 1px 1px darkred;
+	font-family: arial;
+	float: left;
+	width: 160px;
+	height: 20px;
+	background-color: #D8C07C;
+	position: absolute;
+	left: 470px;
+	top: 970px;
+	border-radius: 10px;	
+}
+#thirdvideo
+{
+	color: #E14040;
+	text-shadow: 1px 1px darkred;
+	font-family: arial;
+	float: left;
+	width: 160px;
+	height: 20px;
+	background-color: #D8C07C;
+	position: absolute;
+	left: 470px;
+	top: 1230px;
+	border-radius: 10px;	
+}
+
+#paratwo
+{
+	color: #E14040;
+	text-shadow: 1px 1px darkred;
+	font-family: arial;
+	float: left;
+	width: 540px;
+	height: 70px;
+	background-color: #D8C07C;
+	position: absolute;
+	left: 270px;
+	top: 470px;
+	border-radius: 10px;
+}
+#parathree
+{
+	color: #E14040;
+	text-shadow: 1px 1px darkred;
+	font-family: arial;
+	float: left;
+	width: 540px;
+	height: 180px;
+	background-color: #D8C07C;
+	position: absolute;
+	left: 270px;
+	top: 750px;
+	border-radius: 10px;
+}
+#parafour
+{
+	color: #E14040;
+	text-shadow: 1px 1px darkred;
+	font-family: arial;
+	float: left;
+	width: 540px;
+	height: 80px;
+	background-color: #D8C07C;
+	position: absolute;
+	left: 270px;
+	top: 2610px;
+	border-radius: 10px;
+}
+#parafive
+{
+	color: #E14040;
+	text-shadow: 1px 1px darkred;
+	font-family: arial;
+	float: left;
+	width: 540px;
+	height: 180px;
+	background-color: #D8C07C;
+	position: absolute;
+	left: 270px;
+	top: 1000px;
+	border-radius: 10px;	
+}
+#sidebar
+{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: 150px;
+    background-color: #0085B6;
+    position: fixed;
+    border-bottom: 5px solid black;
+    box-shadow: 0px 4px 8px 0px grey;
+}
+#sidebar a
+{
+	display: block;
+	color: #E0E0E0;
+	padding: 6px 10px;
+	text-decoration: none;
+	border: 1px solid black;
+}
+li a:hover
+{
+	background-color: lime;
+	color: blue;
+}
+
+.footer
+{
+	position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: lightgrey;
+    color: white;
+    border: 1px grey;
+    text-align: center;
+}
+
+.dropbtn 
+{
+    background-color: #D8C07C;
+    color: #E14040;
+    width: 280px;
+    padding: 8px;
+    font-size: 16px;
+    border: none;
+}
+.dropdown
+{
+    position: relative;
+    display: inline-block;
+    left: 100px;
+}
+.dropdown-content
+{
+    display: none;
+    position: absolute;
+    left: 50px;
+    color: red;
+    background-color: #D8C07C;
+    box-shadow: 0px 8px 16px 0px yellow;
+    z-index: 1;
+}
+.dropdown-content a 
+{
+    background-color: #D8C07C;
+    padding: 10px 13px;
+    text-decoration: none;
+    display: block;
+}
+.dropdown-content a:hover 
+{
+	background-color: yellow
+	color: green;
+}
+.dropdown:hover .dropdown-content 
+{
+    display: block;
+    color: #E14040;
+}
+.dropdown:hover .dropbtn
+ {
+    background-color: yellow;
+    color: green;
+}
+
